@@ -4,9 +4,8 @@ export const greetings = {
   name: 'Muhammad Saad Siddique',
   title: "Hi all, I'm Muhammad Saad Siddique",
   description:
-    "I'm passionate Full Stack web developer having an experience of web applications with Angular, Ruby, React.js, Next.js and Blockchain development on Ethereum, Solidity, Web3.js, Moralis, and Brownie Framework.",
-  resumeLink:
-    'https://drive.google.com/file/d/1ECJpzYKD_j5qZ_ulJpk6XWXV5-RF9HT3/view?usp=sharing',
+    "I am a Software Developer with 5 years of experience providing high-impact web and mobile solutions for diverse industries and organizations. With a focus on Android and mobile development, I have a diverse skill set that includes SQL, MySQL, Python, Java, C++, C#, Kotlin, and Firebase. I specialize in designing, developing, and testing mobile and web-based applications and incorporating various technologies to optimize products. With a bachelor's Degree in Information Technology, I can implement software architecture, and design features.",
+  resumeLink: '/resume.pdf',
 };
 
 export const openSource = {
@@ -32,11 +31,11 @@ export const skillsSection = {
       title: 'Full Stack Development',
       lottieAnimationFile: '/lottie/skills/fullstack.json', // Path of Lottie Animation JSON File
       skills: [
-        emoji(
+        
           '⚡ Building responsive Single-Page-Apps (SPA) & PWA in React.js'
-        ),
-        emoji('⚡ Building responsive static websites using Next.js'),
-        emoji('⚡ Building RESTful APIs in Django & Django REST Framework'),
+        ,
+        '⚡ Building responsive static websites using Next.js',
+        '⚡ Building RESTful APIs in Django & Django REST Framework',
       ],
       softwareSkills: [
         {
@@ -52,22 +51,25 @@ export const skillsSection = {
           fontAwesomeClassname: 'logos:javascript',
         },
         {
-          skillName: 'Reactjs',
-          fontAwesomeClassname: 'vscode-icons:file-type-reactjs',
+          skillName: 'Kotlin',
+          fontAwesomeClassname: 'vscode-icons:file-type-kotlin',
         },
         {
-          skillName: 'Nextjs',
-          fontAwesomeClassname: 'vscode-icons:file-type-light-next',
+          skillName: 'Java',
+          fontAwesomeClassname: 'vscode-icons:file-type-java',
         },
         {
           skillName: 'Python',
           fontAwesomeClassname: 'logos:python',
         },
         {
-          skillName: 'Django',
-          fontAwesomeClassname: 'vscode-icons:file-type-django',
+          skillName: 'Android',
+          fontAwesomeClassname: 'logos:android-icon',
         },
-
+        {
+          skillName: 'Github',
+          fontAwesomeClassname: 'akar-icons:github-fill',
+        },
         {
           skillName: 'Redux',
           fontAwesomeClassname: 'logos:redux',
@@ -82,28 +84,17 @@ export const skillsSection = {
         },
       ],
     },
-    {
-      title: 'Cloud Infra-Architecture',
+  {
+      title: 'Automation and Deplioyment',
       lottieAnimationFile: '/lottie/skills/cloudinfra.json', // Path of Lottie Animation JSON File
       skills: [
-        emoji('⚡ Experience of working on multiple cloud platforms'),
-        emoji(
-          '⚡ Hosting and maintaining websites on virtual machine instances along with integration of databases'
-        ),
-        emoji(
-          '⚡ Building CI/CD pipelines for automated testing & deployment using Github Actions'
-        ),
+       
+          '⚡ Hosting and maintaining websites on virtual machine instances along with integration of databases',
+          '⚡ Building CI/CD pipelines for automated testing & deployment using Github Actions',
       ],
       softwareSkills: [
         // ? Check README To get icon details
-        {
-          skillName: 'AWS',
-          fontAwesomeClassname: 'logos:aws',
-        },
-        {
-          skillName: 'Azure',
-          fontAwesomeClassname: 'logos:microsoft-azure',
-        },
+       
         {
           skillName: 'Heroku',
           fontAwesomeClassname: 'logos:heroku-icon',
@@ -124,37 +115,24 @@ export const skillsSection = {
           skillName: 'Github Actions',
           fontAwesomeClassname: 'logos:github-actions',
         },
-        {
-          skillName: 'Cloudinary',
-          fontAwesomeClassname: 'logos:cloudinary',
-        },
-        {
-          skillName: 'Nginx',
-          fontAwesomeClassname: 'logos:nginx',
-        },
-        {
-          skillName: 'Sentry',
-          fontAwesomeClassname: 'logos:sentry-icon',
-        },
+       
       ],
     },
     {
       title: 'Blockchain',
       lottieAnimationFile: '/lottie/skills/ethereum.json', // Path of Lottie Animation JSON File
       skills: [
-        emoji(
+        
           '⚡ Experience in developing Smart Contract using Solidity & Ethereum'
-        ),
-        emoji(
+        ,
+        
           '⚡ Building Scripts for automated testing & deployment of Smart Contracts using Brownie & Infura'
-        ),
-        emoji(
+        ,
           '⚡ Experience of using Openzeppelin Smart Contract Standards & Chainlink Oracles'
-        ),
-        emoji('⚡ Developing NFT Smart Contracts using ERC-721 Token Standard'),
-        emoji(
+        ,
+        '⚡ Developing NFT Smart Contracts using ERC-721 Token Standard',
           '⚡ Building Dapps with React.js & Solidity using Web3.js, Moralis & IPFS'
-        ),
+        ,
       ],
       softwareSkills: [
         {
@@ -199,26 +177,59 @@ export const SkillBars = [
 
 export const educationInfo = [
   {
-    schoolName: 'Osaka University',
-    subHeader: 'Bachelor of Computer Engineering',
-    duration: 'September 2014 - April 2018',
-    desc: 'Participated in the national program contest in 2017 and was awarded a certificate .',
-    grade: 'Grade A',
-    // descBullets: [
-    //   'Lorem ipsum dolor sit amet, consectetur adipdfgiscing elit',
-    //   'Lorem ipsum dolor sit amet, consectetur adipiscing elit',
-    // ],
+    schoolName: 'Pir Mehr Ali Shah University of Arid Agriculture Rawalpindi',
+    subHeader: 'Bachelor of Information Technology',
+    duration: 'September 2013. - August 2017',
+    desc: 'Participated in the national program contest in 2016 and was awarded a certificate .',
+    grade: 'Cgpa 3.53 out of 4.00',
+    descBullets: [
+      'Awarded Full scholarship from Governments due to grades. Achieve 2nd Position in Campus and 4th in University.',
+      'Fnal year Project: Desiese Based Diet Plan System usng Java, Andoriad, Web Services, Sql Server and MySQL.',
+      'Done projects on Swift, asp.net, Sql server, MySQL, Java, Android, Web Services, HTML, CSS, JavaScript, PHP, C++, C, C# and Python. ',
+    ],
   },
 ];
 
 export const experience = [
   {
-    role: 'Frontend Developer',
-    company: 'Souco company',
-    companylogo: '/img/icons/common/souco.webp',
-    date: 'Apr 2018 – Jun 2020',
-    desc: 'I worked as frontend web developer to design web based admin dashboards for mulitple apps using React, Redux, Typescript, Three.js and some other libraries.',
+    role: 'Senior Android Developer',
+    company: 'Pakrism',
+    companylogo: '/img/icons/common/pakrism.webp',
+    date: 'Jan 2022 - May 2023',
+    descBullets: [
+      'Created a tourism application called Pakrism and implemented RxJava to optimize network calls, increase user engagement and reduce crash issues by 70%.',
+      'Improved app performance by 80 % resulting in 2x increase in user engagement.',
+      'Implemented unit and UI testing to ensure app stability.',
+      'Implemented an MVVM structure to optimize code and data redundancy Redesigned an application for a better user experience and an intuitive UI.',
+      'Designed, verified, and tested applications to meet user requirements.',
+    ],
+    desc: ''
   },
+  {
+    role: 'Full-Stack Developer | Data Analyst',
+    company: 'Cytech Solutions',
+    companylogo: '/img/icons/common/vvelocity.jfif',
+    date: 'May 2018 - Dec 2021',
+    descBullets: [
+     'Streamlined data collection, preparation, analysis, and visualization to improve the accuracy and efficiency of reporting and insights.',
+'Applied predictive analytics to analyze historical datasets and identify trends, uncover issues and develop solutions that result in an optimized cost and increased customer satisfaction by 45 %.',
+'Reverse engineered android app by using JADX tool and identified vulnerabilities for the security team to analyze.',
+'Increased the number of users on the app by 30 % in three months by applying data analysis to the current feature set and creating new features based on the results.',
+'Created a Kotlin chat application using MVVM architecture, Realm, Socket.IO, and coroutines, which resulted in a 200 % increase in user retention and a reduction in user attrition by 80 %.',
+'Full - stack developer with experience in multiple languages, including PHP, Python, C, Java, JavaScript, and Node.'
+    ],
+    desc: ''
+  },
+  {
+    role: 'Moderator and Trainer (Volunteer)',
+    date: 'May 2021 - Present',
+    companylogo: '/img/icons/common/icodeguru.jpg',
+    descBullets: [
+      'Conducted training for 1000 live students, achieving a 93% knowledge retention rate, with a focus on key topics such as programming language, database design, android and web development. Moderated two weekly live Q&A sessions with a maximum of 200 students.',
+      'Gave a small talk to a large group of students on the benefits of participating in hackathons, for example, learning new skills, team work, and gaining knowledge on current industry expertise. 10 % participants win prize in every hackathons',
+      'Search for new hackathons and coding competitions so student can participate in those and gather there info which medium organizer using to communicate with participants, furthermore its advantages and disadvantages for students to participate in that.'
+  ]
+},
   {
     role: 'Blockchain/FullStack Developer',
     company: 'Velocity Promotions LLC',
@@ -234,30 +245,43 @@ export const experience = [
 
 export const projects = [
   {
-    name: 'PoshMark',
-    desc: 'Posh Mark built with react.js and next.js bootstrap that helps you showcase your work and skills as a software developer.',
-    github: 'https://github.com/GoshPosh',
-    link: 'https://poshmark.com/',
+    name: 'Fashionate',
+    desc: 'A application to recieve old clothes and give them to needy people if useable else we send to industry to recycle. Give payment to giver as recived from industry.',
+    github: 'https://github.com/MuhammadSaadSiddique/Fashionate'
   },
   {
-    name: 'ArticleBlogBot',
-    desc: 'With Ruby on Rails.',
-    github: 'https://github.com/OkiSeiichi-King/CrudRubyonrails',
+    name: 'hCaptchaSolverApi',
+    desc: 'HCAPTCHA Solver, reCaptcha v2, OCR Captcha.Chrome - Firefox Extension.Free 6000/month 🔥 on signup',
+    github: 'https://github.com/noCaptchaAi/hCaptchaSolverApi',
+    link: 'https://dash.nocaptchaai.com/'
   },
   {
-    name: 'Landing Page for WEB3',
-    desc: 'Get hands-on experience in technical skills with Technota',
-    github: 'https://github.com/OkiSeiichi-King/landing-page-bootstrap',
+    name: 'Disease Wise Diet Plan',
+    desc: ' This android App is designed for Diet facilitation according to their disease because Healthy diet provides the body with fundamental nutrition.',
+    github: 'https://github.com/MuhammadSaadSiddique/DiseaseWiseDietPlan',
   },
   {
-    name: 'NFT-MarketPlace',
-    desc: 'Solidity & React',
-    github: 'https://github.com/OkiSeiichi-King/nft-marketplace-test-now',
+    name: 'TmdbMovies App',
+    desc: ' This app allows users to search movies and view their overview, cast, reviews and trailers. The movies can also be filtered to show users top rated, upcoming and popular movies. This app uses the API from themoviedb.org',
+    github: 'https://github.com/MuhammadSaadSiddique/TmdbMovies',
   },
+  
+  {
+    name: 'Leetcode Codding Problems',
+    desc: 'Solvetion of Leetcode Codding Problems',
+    github: 'https://github.com/MuhammadSaadSiddique/Codding-Problems',
+    link:'https://leetcode.com/MuhammadSaadSiddique/'
+  },
+  {
+    name: 'Find Mechanic App',
+    desc: 'Find mechanic app is a mobile application that helps users to find the nearest mechanic in their area. The app is built using Android and Firebase.',
+    github: 'https://github.com/MuhammadSaadSiddique/im3ch_android',
+  },
+  
 ];
 
 export const feedbacks = [
-  {
+  /*{
     name: 'Michael Honda',
     feedback:
       'Great work, thank you! You  was great to work with and did what I asked. Great communication. Timely replies. Attention to detail with great creativity He is the best guy. Always prompt and have never had an issue with their work.',
@@ -266,7 +290,7 @@ export const feedbacks = [
     name: 'Dannis Steppens',
     feedback:
       " Very detailed in terms of making sure client's projects are fulfilled and working correctly. Thank yo.",
-  },
+  },*/
 ];
 
 // See object prototype on SEO.jsx page
@@ -276,14 +300,14 @@ export const seoData = {
     'A passionate Full Stack Web Developer and Blockchain Developer.',
   author: 'Muhammad Saad Siddique',
   image: 'https://s.gravatar.com/avatar/2330009ac5a0109db7882a3d85b397ec?s=360',
-  url: 'https://developer-portfolio-1hanzla100.vercel.app',
+  url: '/resume.pdf',
   keywords: [
-    'Seiichi',
+    'Saad Siddique',
     'Muhammad Saad Siddique',
-    '@seiichi2',
-    'seiichi',
+    '@MuhammadSaadSiddique',
+    'Saad',
     'Portfolio',
-    'Seiichi Portfolio ',
+    'Saad Portfolio ',
     'Muhammad Saad Siddique Portfolio',
   ],
 };
