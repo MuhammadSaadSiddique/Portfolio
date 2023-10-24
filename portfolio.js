@@ -208,7 +208,7 @@ export const experience = [
   {
     role: 'Full-Stack Developer | Data Analyst',
     company: 'Cytech Solutions',
-    companylogo: '/img/icons/common/vvelocity.jfif',
+    companylogo: '/img/icons/common/cytech.jpg',
     date: 'May 2018 - Dec 2021',
     descBullets: [
      'Streamlined data collection, preparation, analysis, and visualization to improve the accuracy and efficiency of reporting and insights.',
@@ -232,8 +232,8 @@ export const experience = [
 },
   {
     role: 'Blockchain/FullStack Developer',
-    company: 'Velocity Promotions LLC',
-    companylogo: '/img/icons/common/vvelocity.jfif',
+    company: 'Freelance',
+    companylogo: '/img/icons/common/OIP.jpg',
     date: 'Jan 2020 – Mar 2022',
     desc: 'I worked as Blockchain/FullStack Developer on a POSHMARK. POSHMARK is a MarketPlace for the productions. I built Fully Optimized and High Performance RESTful APIs using Ruby on Rails, DjangoRESTFramework, PostgresSQL, JWT Authentication, AWS, Integrated Plaid APIs for Fetching Bank Transactions. And I make front-end by using react. And I implemented the transaction by using Ethereum.',
     // descBullets: [
