@@ -297,9 +297,9 @@ export const feedbacks = [
 export const seoData = {
   title: 'Muhammad Saad Siddique',
   description:
-    'A passionate Full Stack Web Developer and Blockchain Developer.',
+    'A passionate Full Stack Developer and Blockchain Developer.',
   author: 'Muhammad Saad Siddique',
-  image: 'https://s.gravatar.com/avatar/2330009ac5a0109db7882a3d85b397ec?s=360',
+  image: 'https://avatars.githubusercontent.com/u/26270646?v=4',
   url: '/resume.pdf',
   keywords: [
     'Saad Siddique',
