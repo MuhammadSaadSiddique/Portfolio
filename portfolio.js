@@ -181,7 +181,7 @@ export const educationInfo = [
     subHeader: 'Bachelor of Information Technology',
     duration: 'September 2013. - August 2017',
     desc: 'Participated in the national program contest in 2016 and was awarded a certificate .',
-    grade: 'Cgpa 3.53 out of 4.00',
+    grade: 'Cgpa 3.53 out of 4',
     descBullets: [
       'Awarded Full scholarship from Governments due to grades. Achieve 2nd Position in Campus and 4th in University.',
       'Fnal year Project: Desiese Based Diet Plan System usng Java, Andoriad, Web Services, Sql Server and MySQL.',
