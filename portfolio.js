@@ -85,7 +85,7 @@ export const skillsSection = {
       ],
     },
   {
-      title: 'Automation and Deplioyment',
+      title: 'Automation and Deployment',
       lottieAnimationFile: '/lottie/skills/cloudinfra.json', // Path of Lottie Animation JSON File
       skills: [
        
