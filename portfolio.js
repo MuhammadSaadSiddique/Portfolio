@@ -4,7 +4,7 @@ export const greetings = {
   name: 'Muhammad Saad Siddique',
   title: "Hi all, I'm Muhammad Saad Siddique",
   description:
-    "I am a Software Developer with 5 years of experience providing high-impact web and mobile solutions for diverse industries and organizations. With a focus on Android and mobile development, I have a diverse skill set that includes SQL, MySQL, Python, Java, C++, C#, Kotlin, and Firebase. I specialize in designing, developing, and testing mobile and web-based applications and incorporating various technologies to optimize products. With a bachelor's Degree in Information Technology, I can implement software architecture, and design features.",
+    "I am a Software Engineer working in industry from 2016 providing high-impact web and mobile solutions for diverse industries and organizations. With a focus on Android and mobile development, I have a diverse skill set that includes SQL, MySQL, Python, Java, C++, C#, Kotlin, and Firebase. I specialize in designing, developing, and testing mobile and web-based applications and incorporating various technologies to optimize products. With a bachelor's Degree in Information Technology, I can implement software architecture, and design features.",
   resumeLink: '/resume.pdf',
 };
 
@@ -15,27 +15,26 @@ export const openSource = {
 export const contact = {};
 
 export const socialLinks = {
-  // url: 'https://1hanzla100.github.io/',
   linkedin: 'https://linkedin.com/in/muhammad-saad-siddique',
   github: 'https://github.com/MuhammadSaadSiddique',
-  // instagram: 'https://www.instagram.com/__hanzla100',
-  // facebook: 'https://www.facebook.com/1hanzla100',
-  // twitter: 'https://twitter.com/1hanzla100',
+  instagram: 'https://www.instagram.com/muhammadsaad_siddique',
+  facebook: 'https://www.facebook.com/saadsiddiquehere0',
+   twitter: 'https://x.com/ISaadsiddique',
 };
 
 export const skillsSection = {
   title: 'What I do',
-  subTitle: 'CRAZY FULL STACK DEVELOPER WHO WANTS TO EXPLORE EVERY TECH STACK',
+  subTitle: 'Software Engineer WHO WANTS TO EXPLORE EVERY TECH STACK',
   data: [
     {
-      title: 'Full Stack Development',
+      title: 'Senior Software Engineer',
       lottieAnimationFile: '/lottie/skills/fullstack.json', // Path of Lottie Animation JSON File
       skills: [
         
-          '⚡ Building responsive Single-Page-Apps (SPA) & PWA in React.js'
+          '⚡ Building responsive Website'
         ,
-        '⚡ Building responsive static websites using Next.js',
-        '⚡ Building RESTful APIs in Django & Django REST Framework',
+        '⚡ Creating User Friendly Apps',
+        '⚡ Connect RESTful APIs in Apps',
       ],
       softwareSkills: [
         {
@@ -67,12 +66,12 @@ export const skillsSection = {
           fontAwesomeClassname: 'logos:android-icon',
         },
         {
-          skillName: 'Github',
-          fontAwesomeClassname: 'akar-icons:github-fill',
+          skillName: 'Flutter',
+          fontAwesomeClassname: 'logos:flutter-icon',
         },
         {
-          skillName: 'Redux',
-          fontAwesomeClassname: 'logos:redux',
+          skillName: 'Github',
+          fontAwesomeClassname: 'akar-icons:github-fill',
         },
         {
           skillName: 'NPM',
@@ -170,7 +169,10 @@ export const SkillBars = [
     progressPercentage: '70',
   },
   {
-    Stack: 'Programming',
+    Stack: 'Logic Building',
+    progressPercentage: '90',
+  },{
+    Stack: 'Unit Testing',
     progressPercentage: '90',
   },
 ];
