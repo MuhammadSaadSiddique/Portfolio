@@ -4947,8 +4947,8 @@ hoist-non-react-statics@^3.3.2:
     react-is "^16.7.0"
 
 hono@^4.11.4:
-  version "4.11.7"
-  resolved "https://registry.yarnpkg.com/hono/-/hono-4.11.7.tgz#f5b8d0b0b503ef0d913a246012dda52ea23dbe53"
+  version "4.12.0"
+  resolved "https://registry.yarnpkg.com/hono/-/hono-4.12.0.tgz#18f96a2962274398efc57a1a79e22b3daad2ca1c"
 
 hoopy@^0.1.4:
   version "0.1.4"
